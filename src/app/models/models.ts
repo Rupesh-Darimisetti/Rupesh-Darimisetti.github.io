@@ -12,3 +12,9 @@ export interface WorkExperience {
     duration: string;
     description: string[];
 }
+
+export interface Skills {
+    name: string;
+    level: string;
+    rating: number;
+}
