@@ -16,6 +16,15 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+h1 {
+    padding: 1rem 0;
+    text-align: center;
+    letter-spacing: 1px;
+    color: var(--green);
+    outline: 1px solid white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 /* You can add global styles to this file,
 and also import other style files html,
 body {
