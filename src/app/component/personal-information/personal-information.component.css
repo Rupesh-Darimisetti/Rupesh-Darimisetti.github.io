@@ -35,9 +35,10 @@ section p:not(:first-child) {
     margin-top: 1rem;
 }
 
-/* pc */
+/* PC */
+
 :host.pc {
-    margin: 3rem;
+    margin-top: 3rem;
 }
 
 :host.pc .container {

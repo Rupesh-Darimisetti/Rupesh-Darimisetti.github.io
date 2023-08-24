@@ -8,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class PersonalInformationComponent implements OnInit {
   myData: string[][] = [
     ['Name', 'Rupesh Darimisetti'],
-    ['DOB', '12/08/2002'],
+    // ['DOB', '12/08/2002'],
     ['Work Exp', '1 Year'],
     ['Education', 'B.Tech (2023)'],
-    ['Intrests', 'Batminton'],
+    ['Interests', 'Badminton, Martial Arts'],
   ];
 
   aboutMe: string[] = [

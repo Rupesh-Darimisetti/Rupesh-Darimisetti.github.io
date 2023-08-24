@@ -1,0 +1,18 @@
+:host {
+    display: block;
+    color: white;
+    padding: 2rem 0;
+}
+
+p {
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--green);
+    padding: 0 5px;
+}

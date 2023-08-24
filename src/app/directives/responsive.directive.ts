@@ -6,8 +6,10 @@ import { Directive, ElementRef } from '@angular/core';
 })
 export class ResponsiveDirective {
 
-  constructor(private element: ElementRef,
-    private breakpointObserver: BreakpointObserver) {
+  constructor(
+    private element: ElementRef,
+    private breakpointObserver: BreakpointObserver
+  ) {
     this.breakpointObserver
       .observe([Breakpoints.HandsetPortrait, Breakpoints.WebLandscape])
       .subscribe({
@@ -23,5 +25,4 @@ export class ResponsiveDirective {
         },
       });
   }
-
 }

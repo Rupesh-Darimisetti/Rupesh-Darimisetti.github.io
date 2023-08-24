@@ -7,11 +7,3 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
-/* .spacer {
-    flex: 1 1 auto;
-}
-
-a:hover {
-    background-color: aqua;
-} */

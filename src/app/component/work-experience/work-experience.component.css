@@ -21,7 +21,7 @@ ul li h4 {
     color: var(--gray-light);
 }
 
-/* pc */
+/* PC */
 :host.pc ul li:has(ul) {
     width: max-content;
     position: relative;
@@ -46,7 +46,7 @@ ul li h4 {
     width: 1px;
     height: 130%;
     left: -50px;
-    top: 5px;
+    top: 5%;
     z-index: 1;
     background-color: var(--gray-light);
 }

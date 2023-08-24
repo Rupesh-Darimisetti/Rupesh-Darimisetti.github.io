@@ -15,6 +15,10 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: repeat(4, 20%);
 }
 
 .social-media li a {
