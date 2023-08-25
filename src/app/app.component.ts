@@ -17,10 +17,12 @@ export class AppComponent {
         next: (result: any) => {
           for (let breakpoint of Object.keys(result.breakpoints))
             if (result.breakpoints[breakpoint]) {
-              if (breakpoint === Breakpoints.HandsetPortrait)
+              if (breakpoint === Breakpoints.HandsetPortrait) {
                 this.pcMode = false;
-
-              if (breakpoint === Breakpoints.WebLandscape) this.pcMode = true;
+              }
+              if (breakpoint === Breakpoints.WebLandscape) {
+                this.pcMode = true;
+              }
             }
         },
       });
