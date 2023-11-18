@@ -10,7 +10,7 @@ export class ProjectsComponent implements OnInit {
   projects: Project[] = [
     {
       title: 'Image Viewer',
-      technologies: 'Html, Css, JS',
+      technologies: 'HTML, CSS, JavaScript',
       description: [
         'Used to show images of flower from thumbnail to large screen',
         'A description of image where the picture'
@@ -18,13 +18,56 @@ export class ProjectsComponent implements OnInit {
       live: 'https://imagepreview2.netlify.app/',
       code: 'https://github.com/Rupesh-Darimisetti/Image_previewer'
     },
-    // {
-    //   title: '',
-    //   technologies: '',
-    //   description: [],
-    //   live: '',
-    //   code: ''
-    // },
+    {
+      title: 'To Do App Vanilla JS',
+      technologies: 'HTML, CSS3, JavaScript',
+      description: [
+        'used to track To tack task done and to do',
+        'stores data in local storage as a cookie format',
+        'display date on header of component'
+      ],
+      live: 'todo-vanilla-app.netlify.app/',
+      code: 'https://github.com/Rupesh-Darimisetti/ToDoPageVanilla'
+    },
+    {
+      title: 'Task Tracker',
+      technologies: 'HTML, Angular Typescript, CSS, JSON Live Serverr',
+      description: [
+        'track the task to do and completed',
+        'dynamically stores data in render JSON Live Server'
+      ],
+      live: 'https://rupesh-darimisetti.github.io/task-tracker-angular-web-app/',
+      code: 'https://github.com/Rupesh-Darimisetti/task-tracker-angular-web-app/tree/main',
+    },
+    {
+      title: 'Asthra 2.0 website',
+      technologies: 'HTML, JavaScript, CSS',
+      description: [
+        'Baba Institute of Technology and Science College Fest Event Website',
+      ],
+      live: 'https://asthra.netlify.app/',
+      code: 'https://github.com/Rupesh-Darimisetti/asthra-2.0',
+    },
+    {
+      title: 'Tic Tack Toe version 2',
+      technologies: 'HTML, JavaScript, CSS',
+      description: [
+        'Done Tic Tac Toe game during hacktoberfest 2022',
+        `added music to the background of begining of game`
+      ],
+      live: 'https://rupesh-darimisetti.github.io/MyTicTacToe/',
+      code: 'https://github.com/Rupesh-Darimisetti/asthra-2.0',
+    },
+    {
+      title: 'Web weaver Competetion',
+      technologies: 'HTML, CSS, Javascript',
+      description: [
+        'Build an frontend website for hackathon conducted by IIT Bomaby in the year2021',
+        'Nov 19 2021 dec 12 2021'
+      ],
+      live: 'https://rupesh-darimisetti.github.io/web-weaver/',
+      code: 'https://github.com/Rupesh-Darimisetti/web-weaver'
+    }
   ]
   constructor() { }
   ngOnInit(): void { }

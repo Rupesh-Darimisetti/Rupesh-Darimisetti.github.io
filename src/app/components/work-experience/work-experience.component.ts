@@ -17,6 +17,17 @@ export class WorkExperienceComponent implements OnInit {
         'worked on different technologies such as html, css'
       ]
     },
+    {
+      role: 'Web Weaver Hackathon',
+      company: 'IIT Bombay (Tech Fest)',
+      duration: '19 Nov 2021 - 12 Dec 2021',
+      description: [
+        'built  multiple pages  web application.',
+        'worked on different technologies such as html, css',
+        'highlight the hotel maintainence, services, dishes they provided during covid time.',
+        'Used Bootstrap , HTML, CSS, marque and most of the HTML5 components'
+      ]
+    }
   ]
   constructor() { }
   ngOnInit(): void { }

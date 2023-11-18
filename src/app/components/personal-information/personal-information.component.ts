@@ -16,7 +16,7 @@ export class PersonalInformationComponent implements OnInit {
 
   aboutMe: string[] = [
     'Hi, I am a Graduate in Mechanical engineer',
-    'Currently working on software devlopment'
+    'Currently learning things in software development'
   ];
   constructor() { }
 

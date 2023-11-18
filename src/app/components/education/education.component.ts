@@ -13,7 +13,7 @@ export class EducationComponent implements OnInit {
       course: 'Btech',
       syllabus: 'JNTUK',
       duration: '2020-2023',
-      score: '6.93'
+      score: '7.05'
     },
     {
       institution: "Government Polytechnic Visakhapatnam",

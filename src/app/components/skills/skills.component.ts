@@ -19,7 +19,7 @@ export class SkillsComponent implements OnInit {
       rating: 60,
     },
     {
-      name: 'Angular, Angular Material UI',
+      name: 'Angular Typescript, Angular Material UI',
       level: 'Intermediate',
       rating: 50,
     },
@@ -34,9 +34,14 @@ export class SkillsComponent implements OnInit {
       rating: 50,
     },
     {
-      name: 'Spring Boot',
+      name: 'SQL',
       level: 'Beginner',
       rating: 30,
+    },
+    {
+      name: 'Spring Boot',
+      level: 'Beginner',
+      rating: 20,
     },
   ]
   constructor() { }
