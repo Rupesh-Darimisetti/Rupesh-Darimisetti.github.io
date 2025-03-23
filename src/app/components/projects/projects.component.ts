@@ -19,14 +19,14 @@ export class ProjectsComponent implements OnInit {
       code: 'https://github.com/Rupesh-Darimisetti/Image_previewer'
     },
     {
-      title: 'To Do App Vanilla JS',
+      title: 'To Do App  using Vanilla JavaScript',
       technologies: 'HTML, CSS3, JavaScript',
       description: [
-        'used to track To tack task done and to do',
-        'stores data in local storage as a cookie format',
+        'used to track ToDo Items with task done and to do',
+        'The items are stored in local storage in a cookie format',
         'display date on header of component'
       ],
-      live: 'todo-vanilla-app.netlify.app/',
+      live: 'https://todo-vanilla-app.netlify.app/',
       code: 'https://github.com/Rupesh-Darimisetti/ToDoPageVanilla'
     },
     {
@@ -37,13 +37,14 @@ export class ProjectsComponent implements OnInit {
         'dynamically stores data in render JSON Live Server'
       ],
       live: 'https://rupesh-darimisetti.github.io/task-tracker-angular-web-app/',
-      code: 'https://github.com/Rupesh-Darimisetti/task-tracker-angular-web-app/tree/main',
+      code: 'https://github.com/Rupesh-Darimisetti/task-tracker-angular-web-app.git',
     },
     {
       title: 'Asthra 2.0 website',
       technologies: 'HTML, JavaScript, CSS',
       description: [
         'Baba Institute of Technology and Science College Fest Event Website',
+        'Used Video and images with description from the faculty giving there valuable message'
       ],
       live: 'https://asthra.netlify.app/',
       code: 'https://github.com/Rupesh-Darimisetti/asthra-2.0',
@@ -56,7 +57,7 @@ export class ProjectsComponent implements OnInit {
         `added music to the background of begining of game`
       ],
       live: 'https://rupesh-darimisetti.github.io/MyTicTacToe/',
-      code: 'https://github.com/Rupesh-Darimisetti/asthra-2.0',
+      code: 'https://github.com/Rupesh-Darimisetti/MyTicTacToe.git',
     },
     {
       title: 'Web weaver Competetion',
@@ -67,6 +68,24 @@ export class ProjectsComponent implements OnInit {
       ],
       live: 'https://rupesh-darimisetti.github.io/web-weaver/',
       code: 'https://github.com/Rupesh-Darimisetti/web-weaver'
+    },
+    {
+      title: 'NxtTrendz  E-Commerce App',
+      technologies: 'React, JWT authentication, CSS',
+      description: ['Built an E-commerce app using mock api with checkout page and filter options in product page',
+        'Applied the concept learned during the training',
+        ' Prime-user: username: rahul password: rahul@2021',
+        'NonPrime-user:  username: raja password: raja@2021'
+      ],
+      live: 'https://rupeshnxtcart.ccbp.tech/',
+      code: 'https://github.com/Rupesh-Darimisetti/EnhanceNxtTrendz.git'
+    }, {
+      title: 'Jobby App',
+      technologies: 'React, JWT, CSS, HTML',
+      description: ['Built a job searching website using mock api for jobs and profiles',
+        'username: rahul, password: rahul@2021'],
+      live: 'https://rupeshjobby.ccbp.tech/',
+      code: 'https://github.com/Rupesh-Darimisetti/jobby-app.git'
     }
   ]
   constructor() { }

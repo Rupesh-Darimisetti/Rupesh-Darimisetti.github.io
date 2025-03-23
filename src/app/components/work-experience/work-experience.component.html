@@ -4,7 +4,7 @@
         <li *ngFor="let workexp of workExpList">
             <h2>{{workexp.role}}</h2>
             <h3>{{workexp.company}}</h3>
-            <h4>{{workexp.duration}}</h4>
+            <p>{{workexp.duration}}</p>
             <ul>
                 <li *ngFor="let desc of workexp.description">{{desc}}</li>
             </ul>
