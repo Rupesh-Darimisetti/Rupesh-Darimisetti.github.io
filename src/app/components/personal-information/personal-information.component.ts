@@ -10,13 +10,14 @@ export class PersonalInformationComponent implements OnInit {
     ['Name', 'Rupesh Darimisetti'],
     // ['DOB', '12/08/2002'],
     ['Work Exp', '1 Year'],
-    ['Education', 'B.Tech (2023)'],
-    ['Interests', 'Badminton, Martial Arts'],
+    ['Education', 'Bachelor of Technology [Mechanical Engineering -2023]'],
+    ['Interests', 'Badminton'],
   ];
 
   aboutMe: string[] = [
     'Hi, I am a Graduate in Mechanical engineer',
-    'Currently learning things in software development'
+    'Gained Knowledge in MERN Stack through NxtWave',
+    'Currently looking for jobs in software development'
   ];
   constructor() { }
 

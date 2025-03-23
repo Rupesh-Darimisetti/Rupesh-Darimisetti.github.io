@@ -2,7 +2,7 @@
     <h1>Skills</h1>
     <section *ngFor="let skill of skills">
         <h2>{{skill.name}}</h2>
-        <h4>{{skill.level}}</h4>
+        <p>{{skill.level}}</p>
         <div class="rating">
             <div class="bar">
                 <div [ngStyle]="{'width':skill.rating+'%'}"></div>

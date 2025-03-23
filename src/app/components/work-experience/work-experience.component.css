@@ -11,6 +11,8 @@ ul:has(ul) {
 
 ul li:has(ul) {
     margin-top: 2rem;
+    width: 100%;
+    text-wrap: wrap;
 }
 
 ul li h2 {
@@ -26,6 +28,8 @@ ul li h4 {
     width: max-content;
     position: relative;
     margin-left: 5rem;
+    width: 95%;
+    text-wrap: wrap;
 }
 
 :host.pc ul li:has(ul)::before {
