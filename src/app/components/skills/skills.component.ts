@@ -31,12 +31,17 @@ export class SkillsComponent implements OnInit {
     {
       name: 'Python 3',
       level: 'Intermediate',
-      rating: 50,
+      rating: 70,
     },
     {
       name: 'SQL',
-      level: 'Beginner',
-      rating: 30,
+      level: 'Intermediate',
+      rating: 50,
+    },
+    {
+      name: 'React',
+      level: 'Intermediate',
+      rating: 80,
     },
     {
       name: 'Spring Boot',

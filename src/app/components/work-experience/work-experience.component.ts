@@ -9,6 +9,15 @@ import { WorkExperience } from 'src/app/models/models';
 export class WorkExperienceComponent implements OnInit {
   workExpList: WorkExperience[] = [
     {
+      role: 'MERN stack Developer Training',
+      company: 'NxtWave',
+      duration: 'May 2024 - March 2025',
+      description: [
+        'Learned the core concepts of Web devlopment using HTML, CSS, JavaScript all static, dynamic and responsive design',
+        'worked on different technologies such as html, css'
+      ]
+    },
+    {
       role: 'Web Developer Internship',
       company: 'Suvidha Foundation (Suvidha Mahila Mandal)',
       duration: 'Feb 2023 - Apr 2023',
