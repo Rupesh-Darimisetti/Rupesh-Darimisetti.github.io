@@ -1,19 +1,23 @@
 <div class="container">
-    <h1>Projects</h1>
-    <section *ngFor="let project of projects">
-        <h2>{{project.title}}</h2>
-        <h3>
-            <span>Technologies:</span>
-            <span>{{project.technologies}}</span>
-        </h3>
-        <ul *ngFor="let desc of project.description">
-            <li>{{desc}}</li>
+  <h1>Projects</h1>
+  @for (project of projects; track project) {
+    <section>
+      <h2>{{project.title}}</h2>
+      <h3>
+        <span>Technologies:</span>
+        <span>{{project.technologies}}</span>
+      </h3>
+      @for (desc of project.description; track desc) {
+        <ul>
+          <li>{{desc}}</li>
         </ul>
-        <button>
-            <a href="{{project.code}}" target="_blank" rel="noreferrer noopener">code</a>
-        </button>
-        <button>
-            <a href="{{project.live}}" target="_blank" rel="noreferrer noopener">live</a>
-        </button>
+      }
+      <button>
+        <a href="{{project.code}}" target="_blank" rel="noreferrer noopener">code</a>
+      </button>
+      <button>
+        <a href="{{project.live}}" target="_blank" rel="noreferrer noopener">live</a>
+      </button>
     </section>
+  }
 </div>
