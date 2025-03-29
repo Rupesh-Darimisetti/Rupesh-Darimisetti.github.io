@@ -67,6 +67,24 @@ export class ProjectsComponent implements OnInit {
       ],
       live: 'https://rupesh-darimisetti.github.io/web-weaver/',
       code: 'https://github.com/Rupesh-Darimisetti/web-weaver'
+    },
+    {
+      title: 'NxtTrendz  E-Commerce App',
+      technologies: 'React, JWT authentication, CSS',
+      description: ['Built an E-commerce app using mock api with checkout page and filter options in product page',
+        'Applied the concept learned during the training',
+        ' Prime-user: username: rahul password: rahul@2021',
+        'NonPrime-user:  username: raja password: raja@2021'
+      ],
+      live: 'https://rupeshnxtcart.ccbp.tech/',
+      code: 'https://github.com/Rupesh-Darimisetti/EnhanceNxtTrendz.git'
+    }, {
+      title: 'Jobby App',
+      technologies: 'React, JWT, CSS, HTML',
+      description: ['Built a job searching website using mock api for jobs and profiles',
+        'username: rahul, password: rahul@2021'],
+      live: 'https://rupeshjobby.ccbp.tech/',
+      code: 'https://github.com/Rupesh-Darimisetti/jobby-app.git'
     }
   ]
   constructor() { }

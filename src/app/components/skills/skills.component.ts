@@ -39,6 +39,11 @@ export class SkillsComponent implements OnInit {
       rating: 30,
     },
     {
+      name: 'React',
+      level: 'Intermediate',
+      rating: 80,
+    },
+    {
       name: 'Spring Boot',
       level: 'Beginner',
       rating: 20,
